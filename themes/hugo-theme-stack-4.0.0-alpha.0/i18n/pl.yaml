@@ -1,0 +1,43 @@
+toggleMenu: Przełącz Menu
+
+darkMode: Tryb ciemny
+
+list:
+    page:
+        one: "{{ .Count }} strona"
+        other: "{{ .Count }} stron"
+    section: Sekcja
+    subsection:
+        one: Podsekcja
+        other: Podsekcje
+
+article:
+    back: Wróć
+    tableOfContents: Spis treści
+    relatedContent: Powiązane artykuły
+    lastUpdatedOn: Ostatnio zaktualizowany
+    readingTime:
+        one: "Przeczytasz w {{ .Count }} minutę"
+        other: "Przeczytasz w {{ .Count }} minut"
+
+notFound:
+    title: Nie znaleziono
+    subtitle: Ta strona nie istnieje
+
+widget:
+    archives:
+        title: Archiwum
+        more: Więcej
+    tagCloud:
+        title: Tagi
+    categoriesCloud:
+        title: Kategorie
+
+search:
+    title: Szukaj
+    placeholder: Wpisz coś...
+    resultTitle: "#PAGES_COUNT stron (#TIME_SECONDS sekund)"
+
+footer:
+    builtWith: Zbudowano z {{ .Generator }}
+    designedBy: Motyw {{ .Theme }} zaprojektowany przez {{ .DesignedBy }}
